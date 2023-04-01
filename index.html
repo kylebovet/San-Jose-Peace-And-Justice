@@ -21,6 +21,20 @@
           <img src="" alt="San Jose Peace and Justice Logo">
         </div>
 
+        <div class="search">
+          <form action="#">
+              <input type="text"
+                  placeholder=" Search Courses"
+                  name="search">
+              <button>
+                  <i class="fa fa-search"
+                      style="font-size: 18px;">
+                  </i>
+              </button>
+          </form>
+      </div>
+  </div>
+
 
       </div>
 
@@ -47,20 +61,22 @@
 
   <main>
     <section class="hero-section">
-      <div>
-        <img src="" alt="">
+      <div class="hero-align">
+        <img src="" id="hero-photo" alt="Photo of the SJ Peace and Justice Center">
+        <div class="hero-content">
         <h1>
           San Jose Peace and Justice Center
         </h1>
         <p>
           A community space and resource center for progressive activism.
         </p>
+        </div>
       </div>
     </section>
 
     <section class="cards">
       <div class="forums-card">
-        <img src="" alt="">
+        <img src="" alt="Speech Bubble Icon">
         <h3>
           Forums
         </h3>
@@ -70,7 +86,7 @@
         </p>
       </div>
       <div class="space-card">
-        <img src="" alt="">
+        <img src="" alt="House Icon">
         <h3>
           Space
         </h3>
@@ -81,7 +97,7 @@
       </div>
       </div>
       <div class="publicity-card">
-        <img src="" alt="">
+        <img src="" alt="People Icon">
         <h3>
           Publicity
         </h3>
@@ -92,32 +108,28 @@
       </div>
     </section>
 
+
+    <section class="margin-section">
     <section class="principles-unity-section">
-      <h2>
+      <h2 class="principles-title">
         Our Principles of Unity
       </h2>
+
       <section class="principles">
-        <div>
-          <h4>
-            United Action
-          </h4>
-          <p>
-            We promote cooperation and political coalition to advance progressive social change.
-          </p>
-        </div>
-        <!-- <div>
-<img src="" id="united-action-icon" alt="United Action Icon">
-</div> -->
-        <div>
-          <h4>
+        
+        <div class="principles-container">
+          <img src="" id="united-action-icon" alt="United Action Icon">
+          <h4 class="principles-header">
             Justice
           </h4>
           <p>
             We seek to contribute toward building a just and sustainable society.
           </p>
         </div>
-        <div>
-          <h4>
+
+        <div class="principles-container">
+          <img src="" id="united-action-icon" alt="United Action Icon">
+          <h4 class="principles-header">
             Equality
           </h4>
           <p>
@@ -126,20 +138,32 @@
           </p>
         </div>
 
-        <div>
-          <h4>
+        <div class="principles-container">
+          <img src="" id="united-action-icon" alt="United Action Icon">
+          <h4 class="principles-header">
+            United Action
+          </h4>
+          <p>
+            We promote cooperation and political coalition to advance progressive social change.
+          </p>
+        </div>
+
+        <div class="principles-container">
+          <img src="" id="united-action-icon" alt="United Action Icon">
+          <h4 class="principles-header">
             Anti-War
           </h4>
           <p>
             We support struggles against militarism and the culture of violence that permeates our society.
           </p>
         </div>
+        
       </section>
 
 
       <section class="events-section">
 
-        <div class="container">
+        <div class="event-container1">
           <section class="upcoming-events">
             <div>
               <h4 class="header-events">
@@ -162,7 +186,7 @@
 
                 <div class="event-box-content">
                   <div>
-                    <img src="./Media/bluelogo.png" id="event-logo-blue" alt="SVUN Logo">
+                    <img src="./Media/bluelogo.png" class="event-logo" alt="SVUN Logo">
                   </div>
                   <div class="box-content">
                     <h3>
@@ -192,7 +216,7 @@
 
                 <div class="event-box-content">
                   <div>
-                    <img src="./Media/bluelogo.png" id="event-logo-blue" alt="SVUN Logo">
+                    <img src="./Media/nihonmachi-outreach-committee_1_360.png" class="event-logo" alt="SVUN Logo">
                   </div>
                   <div class="box-content">
                     <h3>
@@ -206,7 +230,7 @@
                 </div>
               </div>
 
-              <button class="calendar-button">
+              <button class="event-button">
                 See Full Calendar
               </button>
 
@@ -214,18 +238,23 @@
           </section>
         </div>
 
-        <div class="container">
+        <div class="event-container2">
           <div class="book-event-card">
+            <h4 class="book-event-header">
+              Use our space for community building!
+            </h4>
             <div>
-              <img src="" id="" alt="Photo of the Center">
+              <img src="./Media/sjm-l-pizarro-col-0918-01_1_480.png" id="book-image" alt="Photo of the Center">
             </div>
             <p>
               Text about SJPJC being open to progressive events
             </p>
-            <button class="book-event-button">Book an event</button>
+            <button class="event-button">Book an event</button>
           </div>
         </div>
       </section>
+
+</section>
 
       <section class="our-partners">
         <div class="partners">
@@ -297,12 +326,12 @@
           <p>
             Be the first to hear about upcoming events, SJPJC news, and everything else!
           </p>
-          <input type="name" placeholder="Full Name">
-          <input type="email" placeholder="Email Address">
-          <button>Sign me up!</button>
+          <input type="name" class="input-button" placeholder="Full Name">
+          <input type="email" class="input-button" placeholder="Email Address">
+          <button class="contact-button">Sign me up!</button>
         </div>
         <div class="contact-content-right">
-          <img src="#" alt="Envelope Icon">
+          <img src="#" id="contact-image" alt="Envelope Icon">
         </div>
       </section>
 
