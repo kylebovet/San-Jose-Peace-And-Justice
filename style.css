@@ -54,7 +54,6 @@ ul {
 /* EVENTS SECTION */
 .events-section {
   display: flex;
-  border: red solid 3px;
   text-align: center;
   justify-content: center;
 }
@@ -80,17 +79,25 @@ ul {
   padding: 2rem;
 }
 
-.event-box1-header {
+.event-box-header {
   display: flex;
+  justify-content: space-around;
+  border-bottom: black solid 1px;
+  margin-bottom: 0;
 }
 
-.event-box-content1 {
+.event-box-content {
   display: flex;
+  margin-top: 1rem;
 }
 
-.box-content1 {
+#event-logo-blue {
+    padding: 2rem;
+}
+
+.box-content {
   display: flex;
-  align-items: left;
+  text-align: left;
   flex-direction: column;
   
 }  
