@@ -18,37 +18,84 @@ ul {
   text-align: center;
   justify-content: center;
   gap: 7.813rem;
+  font-weight: bold;
+  color: #064789;
+  font-size: 32px;
+}
+
+header {
+  border-bottom: black solid 1px;
+}
+
+/* HERO SECTION */
+.hero-align {
+  display: flex;
+}
+
+#hero-photo {
+  width: 35%;
+}
+
+.hero-content {
+  padding: 4rem;
 }
 
 /* CARD SECTION STYLING */
 .cards {
   display: flex;
+  text-align: center;
 }
 
 .forums-card {
   background: #064789;
   color: #fff;
+  padding: 2rem;
 }
 
 .space-card {
   background: #577399;
   color: #fff;
+  padding: 2rem;
 }
 
 .publicity-card {
   background-color: #427AA1;
   color: #fff;
+  padding: 2rem;
+}
+
+/* MARGIN STYLING FOR MIDDLE OF PAGE */
+
+.margin-section {
+margin: 10%;
 }
 
 /* PRINCIPLES OF UNITY SECTION */
 .principles {
   display: flex;
-  margin: 4rem 10%;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
+.principles-title {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.principles-container {
+}
 
 #united-action-icon {
  width: 50%; 
+}
+
+.principles-header {
+  font-size: 40px;
+}
+
+#book-image {
+  width: 50%;
 }
 
 /* EVENTS SECTION */
@@ -56,6 +103,10 @@ ul {
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+.event-container2 {
+  background: #D6D6D6;
 }
 
 .header-events {
@@ -91,7 +142,7 @@ ul {
   margin-top: 1rem;
 }
 
-#event-logo-blue {
+.event-logo {
     padding: 2rem;
 }
 
@@ -102,13 +153,15 @@ ul {
   
 }  
 
-.calendar-button {
+.event-button {
   background: #EBF2FA;
-  border-color: #0C3A68;
-  border-width: 3px;
+  border: #0C3A68 solid 3px;
+  box-shadow: ;
   border-radius: 20px;
-  padding-right: 4px;
-  padding-left: 4px;
+  padding: 1rem;
+  font-weight: bold;
+  color: #0C3A68;
+  font-size: 24px;
 }
 
 .book-event-button {
@@ -122,6 +175,10 @@ ul {
 
 .book-event {
   background: #EBF2FA;
+}
+
+.book-event-header {
+  font-size: 40px;
 }
 
 .book-event-card {
@@ -194,7 +251,26 @@ text-align: center;
 }
 
 .contact-content-left {
+width: 50%;
+}
 
+.input-button {
+  padding: 0.8rem;
+  border-radius: 16px;
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+#contact-image {
+  width: 50%;
+}
+
+.contact-button {
+  background: #EBF2FA;
+  border: #0C3A68 solid 3px;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
 }
 
 /* FOOTER STYLING */
