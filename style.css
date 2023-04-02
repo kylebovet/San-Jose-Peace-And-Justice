@@ -12,6 +12,38 @@ ul {
   }
   
 
+.container img {
+    width: 160px;
+    margin-left: 100px;
+    margin-top: 34px;
+  }
+
+.container input {
+    font-size: 20px;
+    width: 415px;
+    height: 56px;
+    margin-left: 100px;
+    border-radius: 4%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 86px;
+    margin-right: 175px;
+}
+  .container button {
+    font-size: 20px;
+    width: 56px;
+    height: 56px;
+    background-color: #064789;
+    color: white;
+    border: 3px solid black;
+    border-radius: 4%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 86px;
+    margin-right: 100px;
+  }
 /* HEADER STYLING */
 .primary-nav {
   display: flex;
@@ -131,11 +163,17 @@ margin: 10%;
 }
 
 .event-box-header {
+  font-size: 24px;
   display: flex;
   justify-content: space-around;
   border-bottom: black solid 1px;
   margin-bottom: 0;
+  margin-top: 0;
 }
+.event-box-header h5 {
+  border-right: 3px solid grey;
+}
+
 
 .event-box-content {
   display: flex;
