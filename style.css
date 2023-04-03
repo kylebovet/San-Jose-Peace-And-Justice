@@ -96,6 +96,16 @@ width: 35%;
 
 .hero-content {
 padding: 4rem;
+margin-top: 4rem;
+}
+
+.hero-content h1 {
+ font-size: 40px;
+}
+
+.hero-content p {
+ font-size: 20px;
+ font-weight: 300;
 }
 
 .dropdown {
@@ -264,7 +274,7 @@ margin-top: 0;
 }
 .event-box-header h5 {
 border-right: 3px solid grey;
-padding-right: 3rem;
+padding-right: 1rem;
 font-size: 24;
 margin-top: 1.7rem;
 }
@@ -292,7 +302,7 @@ flex-direction: column;
 .event-button {
 background: #EBF2FA;
 border: #0C3A68 solid 3px;
-box-shadow: ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 padding: 1rem;
 font-weight: bold;
@@ -301,12 +311,15 @@ font-size: 24px;
 }
 
 .book-event-button {
-background: #EBF2FA;
-border-color: #0C3A68;
-border-width: 3px;
-border-radius: 20px;
-padding-right: 4px;
-padding-left: 4px;
+  background: #EBF2FA;
+  border: #0C3A68 solid 3px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 1rem;
+  font-weight: bold;
+  color: #0C3A68;
+  font-size: 24px;
+  margin-top: 16rem;
 }
 
 .book-event {
@@ -317,7 +330,11 @@ background: #EBF2FA;
 font-size: 40px;
 margin: 2rem;
 }
+.book-event-image {
+width: 675px;
+height: 420px;
 
+}
 .book-event-card {
 text-align: center;
 }
